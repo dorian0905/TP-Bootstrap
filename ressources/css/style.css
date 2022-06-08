@@ -1,0 +1,76 @@
+/* -------------------- START NAVBAR -------------------*/
+
+#navbar-fixed {
+    z-index: 2;
+}
+
+#logo-elixir {
+    width: 100px;
+}
+
+/* -------------------- END NAVBAR -------------------*/
+
+/* -------------------- START CAROUSEL -------------------*/
+
+#principal-title {
+    font-size: 2.5em;
+}
+
+@media screen and (max-width:576px) {
+    #principal-title {
+        font-size: 1.5em;
+    }
+}
+
+.drk:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:black;
+    opacity: 0.6;
+}
+
+/* -------------------- END CAROUSEL -------------------*/
+
+/* -------------------- START MAIN -------------------*/
+
+#the-history {
+    font-family: "Great Vibes";
+    font-size: 3.5em;
+}
+
+#opening-hours-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/ressources/img/opening-hours-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hours-text {
+    font-size: 3em;
+}
+
+#menu-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/ressources/img/menu-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* -------------------- END MAIN -------------------*/
+
+
+/* -------------------- START FOOTER -------------------*/
+
+.social-icon {
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    filter: brightness(1.5);
+}
+
+/* -------------------- END FOOTER -------------------*/
