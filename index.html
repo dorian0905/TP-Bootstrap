@@ -1,235 +1,391 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ressources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/ressources/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/ressources/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/ressources/css/style.css" />
     <script src="/ressources/script/bootstrap.bundle.min.js" defer></script>
     <script src="/ressources/script/script.js" defer></script>
     <!-- FONT FAMILY -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
 
     <title>TP Bootstrap | ELIXIR</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-xs-1 py-lg-3 opacity-75 position-fixed top-0 w-100" id="navbar-fixed">
-        <div class="container-fluid">
-            <a class="navbar-brand ms-sm-5" href="#"><img id="logo-elixir" src="/ressources/img/logo.webp" alt="Logo Elixir"></a>
-            <button class="navbar-toggler me-sm-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
-                <div class="navbar-nav d-flex me-5">
-                    <a class="nav-item mx-3 fw-bold nav-link active" href="#">HOME</a>
-                    <a class="nav-item mx-3 fw-bold nav-link" href="#">ABOUT</a>
-                    <a class="nav-item mx-3 fw-bold nav-link" href="#">MENU</a>
-                    <a class="nav-item mx-3 fw-bold nav-link" href="#">GALLERY</a>
-                    <a class="nav-item mx-3 fw-bold nav-link" href="#">RESERVATIONS</a>
-                    <a class="nav-item mx-3 fw-bold nav-link" href="#">LOCATION</a>
-                </div>
-            </div>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark py-xs-1 py-lg-3 opacity-75 position-fixed top-0 w-100"
+      id="navbar-fixed"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand ms-sm-5" href="#"
+          ><img
+            id="logo-elixir"
+            src="/ressources/img/logo.webp"
+            alt="Logo Elixir"
+        /></a>
+        <button
+          class="navbar-toggler me-sm-5"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end text-end"
+          id="navbarNav"
+        >
+          <div class="navbar-nav d-flex me-5 subNav">
+            <a class="nav-item mx-3 fw-bold nav-link active" href="#">HOME</a>
+            <a class="nav-item mx-3 fw-bold nav-link" href="#">ABOUT</a>
+            <a class="nav-item mx-3 fw-bold nav-link" href="#">MENU</a>
+            <a class="nav-item mx-3 fw-bold nav-link" href="#">GALLERY</a>
+            <a class="nav-item mx-3 fw-bold nav-link" href="#">RESERVATIONS</a>
+            <a class="nav-item mx-3 fw-bold nav-link" href="#">LOCATION</a>
+          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <main>
-        <div class="position-relative">
-            <div class="container-fluid p-0">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item drk active">
-                            <img src="/ressources/img/carousel1.webp" class="d-block w-100" alt="Dressage d'assiette">
-                        </div>
-                        <div class="carousel-item drk">
-                            <img src="/ressources/img/carousel2.webp" class="d-block w-100" alt="Mise en table nourriture asiatique">
-                        </div>
-                        <div class="carousel-item drk">
-                            <img src="/ressources/img/carousel3.webp" class="d-block w-100" alt="Intérieur du restaurant">
-                        </div>
-                        <div class="carousel-item drk">
-                            <img src="/ressources/img/carousel4.webp" class="d-block w-100" alt="Entrée au saumon">
-                        </div>
-                        <div class="carousel-item drk">
-                            <img src="/ressources/img/carousel5.webp" class="d-block w-100" alt="Vue du bar">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+      <div class="position-relative">
+        <div class="container-fluid p-0">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item drk active">
+                <img
+                  src="/ressources/img/carousel1.webp"
+                  class="d-block w-100"
+                  alt="Dressage d'assiette"
+                />
+              </div>
+              <div class="carousel-item drk">
+                <img
+                  src="/ressources/img/carousel2.webp"
+                  class="d-block w-100"
+                  alt="Mise en table nourriture asiatique"
+                />
+              </div>
+              <div class="carousel-item drk">
+                <img
+                  src="/ressources/img/carousel3.webp"
+                  class="d-block w-100"
+                  alt="Intérieur du restaurant"
+                />
+              </div>
+              <div class="carousel-item drk">
+                <img
+                  src="/ressources/img/carousel4.webp"
+                  class="d-block w-100"
+                  alt="Entrée au saumon"
+                />
+              </div>
+              <div class="carousel-item drk">
+                <img
+                  src="/ressources/img/carousel5.webp"
+                  class="d-block w-100"
+                  alt="Vue du bar"
+                />
+              </div>
             </div>
-            <div class="w-100 d-flex flex-column justify-content-end justify-content-sm-center text-white position-absolute top-0 h-100" id="text-hero">
-                <div class="text-center d-none d-md-block">
-                    <img class="img-fluid w-25" src="/ressources/img/logo-hero.webp" alt="Logo hero">
-                </div>
-                <h1 class="text-center mb-4 mb-sm-0" id="principal-title">ELIXIR EXCLUSIVELY FOOD</h1>
-                <div class="w-100 text-center d-none d-sm-block">
-                    <img class="img-fluid" src="/ressources/img/separator.webp" alt="Element graphique de séparation des textes">
-                </div>
-                <p class="text-center fs-5 d-none d-sm-block">The Chef creates divine combinations</p>
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="false"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-        <section class="container mb-5">
-            <h2 class="mt-4 mb-5 text-center">ABOUT US</h2>
-            <p class="text-center mb-5 mt-4 fst-italic">We love restaurants as mush as you do. That's why we've been helping them fill<br>tables since 1999. Welcome to elixir restaurant</p>
-            <div class="row justify-content-center">
-                <div class="col-xs-12 col-lg-5 align-self-center">
-                    <h3 class="text-center mb-5 text-warning" id="the-history">The History</h3>
-                    <p class="mb-5">The <span class="text-warning fw-bold">History of Kitchens</span> and Cooks gives further intimation on Mr Boulanger usual menu, stating confidently that "Boulanger served salted poultry and fresh eggs, all presented without a tablecloth on small marble tables". Numerous commentators have also referred to the supposed restaurant owner's eccentric habit of touting for custom outside his establishment, dressed in aristocratic fashion and brandishing a sword.</p>
-                    <p>According to Miss Spang, there is not a shred of evidence for any of it. She said: These legends just get passed on by hearsay and then spiral out of control. Her interest in <span class="text-warning fw-bold">Boulanger</span> dates back to a history of food seminar.</p>
-                </div>
-                <div class="col-xs-12 col-lg-4 text-center">
-                    <img class="img-fluid" src="/ressources/img/plate.webp" alt="Plat">
-                </div>
+        <div
+          class="w-100 d-flex flex-column justify-content-end justify-content-sm-center text-white position-absolute top-0 h-100"
+          id="text-hero"
+        >
+          <div class="text-center d-none d-md-block">
+            <img
+              class="img-fluid w-25"
+              src="/ressources/img/logo-hero.webp"
+              alt="Logo hero"
+            />
+          </div>
+          <h1 class="text-center mb-4 mb-sm-0" id="principal-title">
+            ELIXIR EXCLUSIVELY FOOD
+          </h1>
+          <div class="w-100 text-center d-none d-sm-block">
+            <img
+              class="img-fluid"
+              src="/ressources/img/separator.webp"
+              alt="Element graphique de séparation des textes"
+            />
+          </div>
+          <p class="text-center fs-5 d-none d-sm-block">
+            The Chef creates divine combinations
+          </p>
+        </div>
+      </div>
+      <section class="container mb-5">
+        <h2 class="mt-4 mb-5 text-center">ABOUT US</h2>
+        <p class="text-center mb-5 mt-4 fst-italic">
+          We love restaurants as mush as you do. That's why we've been helping
+          them fill<br />tables since 1999. Welcome to elixir restaurant
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-xs-12 col-lg-5 align-self-center">
+            <h3 class="text-center mb-5 text-warning" id="the-history">
+              The History
+            </h3>
+            <p class="mb-5">
+              The
+              <span class="text-warning fw-bold">History of Kitchens</span> and
+              Cooks gives further intimation on Mr Boulanger usual menu, stating
+              confidently that "Boulanger served salted poultry and fresh eggs,
+              all presented without a tablecloth on small marble tables".
+              Numerous commentators have also referred to the supposed
+              restaurant owner's eccentric habit of touting for custom outside
+              his establishment, dressed in aristocratic fashion and brandishing
+              a sword.
+            </p>
+            <p>
+              According to Miss Spang, there is not a shred of evidence for any
+              of it. She said: These legends just get passed on by hearsay and
+              then spiral out of control. Her interest in
+              <span class="text-warning fw-bold">Boulanger</span> dates back to
+              a history of food seminar.
+            </p>
+          </div>
+          <div class="col-xs-12 col-lg-4 text-center">
+            <img
+              class="img-fluid"
+              src="/ressources/img/plate.webp"
+              alt="Plat"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid text-center" id="opening-hours-section">
+        <h2 class="text-white pt-5 fw-bold">OPENING HOURS</h2>
+        <p class="text-warning">Call For Reservations</p>
+        <div class="d-flex justify-content-center align-items-center">
+          <div>
+            <h3 class="text-warning">Sunday to<br />Tuesday</h3>
+            <p class="hours-text text-white">09:00</p>
+            <p class="hours-text text-white">24:00</p>
+          </div>
+          <div class="mx-3">
+            <img
+              src="/ressources/img/vertical-separator.webp"
+              alt="Element graphique vertical de séparation des textes"
+            />
+          </div>
+          <div>
+            <h3 class="text-warning">Friday and<br />Saturday</h3>
+            <p class="hours-text text-white">08:00</p>
+            <p class="hours-text text-white">03:00</p>
+          </div>
+        </div>
+        <p class="text-white py-4 my-0">RESERVATION NUMBER: 0642-5484214</p>
+      </section>
+      <section class="container-fluid px-0" id="menu-section">
+        <div class="row justify-content-center mx-0 mb-3">
+          <div class="col-11 col-sm-8 col-xl-3 mx-4">
+            <h2 class="text-warning text-center mt-5">PRIME STEAKS</h2>
+            <h3>FILET</h3>
+            <div class="d-flex justify-content-between">
+              <p>Lorem ipsum dolor sit amet</p>
+              <p class="text-warning">$14.49</p>
             </div>
-        </section>
-        <section class="container-fluid text-center" id="opening-hours-section">
-            <h2 class="text-white pt-5 fw-bold">OPENING HOURS</h2>
-            <p class="text-warning">Call For Reservations</p>
-            <div class="d-flex justify-content-center align-items-center">
-                <div>
-                    <h3 class="text-warning">Sunday to<br>Tuesday</h3>
-                    <p class="hours-text text-white">09:00</p>
-                    <p class="hours-text text-white">24:00</p>
-                </div>
-                <div class="mx-3">
-                    <img src="/ressources/img/vertical-separator.webp" alt="Element graphique vertical de séparation des textes">
-                </div>
-                <div>
-                    <h3 class="text-warning">Friday and<br>Saturday</h3>
-                    <p class="hours-text text-white">08:00</p>
-                    <p class="hours-text text-white">03:00</p>
-                </div>
+            <h3>BOINE IN FILET</h3>
+            <div class="d-flex justify-content-between">
+              <p>consectetur adipisicing elit</p>
+              <p class="text-warning">$20.50</p>
             </div>
-            <p class="text-white py-4 my-0">RESERVATION NUMBER: 0642-5484214</p>
-        </section>
-        <section class="container-fluid px-0" id="menu-section">
-            <div class="row justify-content-center mx-0 mb-3">
-                <div class="col-11 col-sm-8 col-xl-3 mx-4">
-                    <h2 class="text-warning text-center mt-5">PRIME STEAKS</h2>
-                    <h3>FILET</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p class="text-warning">$14.49</p>
-                    </div>
-                    <h3>BOINE IN FILET</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>consectetur adipisicing elit</p>
-                        <p class="text-warning">$20.50</p>
-                    </div>
-                    <h3>NEW YORK STRIP</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>Soluta dolorum repellendus</p>
-                        <p class="text-warning">$9.99</p>
-                    </div>
-                    <h3>PORTERHOUSE</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>eveniet animi culpa eum</p>
-                        <p class="text-warning">$7.99</p>
-                    </div>
-                    <h3>DELMONICO</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>minus molestiae at natus earum</p>
-                        <p class="text-warning">$17.99</p>
-                    </div>
-                </div>
-                <div class="col-11 col-sm-8 col-xl-3 mx-4">
-                    <h2 class="text-warning text-center mt-5">DRINKS & WINES</h2>
-                                        <h3>FILET</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p class="text-warning">$14.49</p>
-                    </div>
-                    <h3>BOINE IN FILET</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>consectetur adipisicing elit</p>
-                        <p class="text-warning">$20.50</p>
-                    </div>
-                    <h3>NEW YORK STRIP</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>Soluta dolorum repellendus</p>
-                        <p class="text-warning">$9.99</p>
-                    </div>
-                    <h3>PORTERHOUSE</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>eveniet animi culpa eum</p>
-                        <p class="text-warning">$7.99</p>
-                    </div>
-                    <h3>DELMONICO</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>minus molestiae at natus earum</p>
-                        <p class="text-warning">$17.99</p>
-                    </div>
-                </div>
-                <div class="col-11 col-sm-8 col-xl-3 mx-4">
-                    <h2 class="text-warning text-center mt-5">DESSERTS</h2>
-                                        <h3>FILET</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p class="text-warning">$14.49</p>
-                    </div>
-                    <h3>BOINE IN FILET</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>consectetur adipisicing elit</p>
-                        <p class="text-warning">$20.50</p>
-                    </div>
-                    <h3>NEW YORK STRIP</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>Soluta dolorum repellendus</p>
-                        <p class="text-warning">$9.99</p>
-                    </div>
-                    <h3>PORTERHOUSE</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>eveniet animi culpa eum</p>
-                        <p class="text-warning">$7.99</p>
-                    </div>
-                    <h3>DELMONICO</h3>
-                    <div class="d-flex justify-content-between">
-                        <p>minus molestiae at natus earum</p>
-                        <p class="text-warning">$17.99</p>
-                    </div>
-                </div>
+            <h3>NEW YORK STRIP</h3>
+            <div class="d-flex justify-content-between">
+              <p>Soluta dolorum repellendus</p>
+              <p class="text-warning">$9.99</p>
             </div>
-            <div class="row justify-content-center mx-0 align-items-center">
-                <hr class="col-4 m-0 text-secondary d-none d-md-inline">
-                <button type="button" class="btn btn-outline-warning col-10 col-sm-5 col-md-2 m-5">VIEW COMPLETE MENU</button>
-                <hr class="col-4 m-0 text-secondary d-none d-md-inline">
+            <h3>PORTERHOUSE</h3>
+            <div class="d-flex justify-content-between">
+              <p>eveniet animi culpa eum</p>
+              <p class="text-warning">$7.99</p>
             </div>
-        </section>
-        <section class="container-fluid text-center px-0 py-5 bg-dark">
-            <h2 class="text-white">GALLERY</h2>
-            <p class="text-white fst-italic">If a picture says a thousand words, then you can imagine how long it would take to describe all<br>ou mouthwatering selections.</p>
-            <nav class="nav justify-content-center mb-5">
-                <a class="nav-link link-light fw-bold active" aria-current="page" href="#">All Photos</a>
-                <a class="nav-link link-light fw-bold" href="#">Food</a>
-                <a class="nav-link link-light fw-bold" href="#">Restaurant</a>
-                <a class="nav-link link-light fw-bold" href="#">Desserts</a>
-            </nav>
-            <div class="row gx-0 justify-content-center">
-                <div class="col-11 col-sm-9 my-1 my-xl-0 col-xl-4">
-                    <img class="img-fluid" src="/ressources/img/spices.webp" alt="Différentes épices">
-                </div>
-                <div class="col-11 col-sm-9 my-1 my-xl-0 col-xl-4">
-                    <img class="img-fluid" src="/ressources/img/table.webp" alt="Table de restaurant">
-                </div>
-                <div class="col-11 col-sm-9 my-1 my-xl-0 col-xl-4">
-                    <img class="img-fluid" src="/ressources/img/cakes.webp" alt="Desserts aux fruits ">
-                </div>
+            <h3>DELMONICO</h3>
+            <div class="d-flex justify-content-between">
+              <p>minus molestiae at natus earum</p>
+              <p class="text-warning">$17.99</p>
             </div>
-        </section>
+          </div>
+          <div class="col-11 col-sm-8 col-xl-3 mx-4">
+            <h2 class="text-warning text-center mt-5">DRINKS & WINES</h2>
+            <h3>FILET</h3>
+            <div class="d-flex justify-content-between">
+              <p>Lorem ipsum dolor sit amet</p>
+              <p class="text-warning">$14.49</p>
+            </div>
+            <h3>BOINE IN FILET</h3>
+            <div class="d-flex justify-content-between">
+              <p>consectetur adipisicing elit</p>
+              <p class="text-warning">$20.50</p>
+            </div>
+            <h3>NEW YORK STRIP</h3>
+            <div class="d-flex justify-content-between">
+              <p>Soluta dolorum repellendus</p>
+              <p class="text-warning">$9.99</p>
+            </div>
+            <h3>PORTERHOUSE</h3>
+            <div class="d-flex justify-content-between">
+              <p>eveniet animi culpa eum</p>
+              <p class="text-warning">$7.99</p>
+            </div>
+            <h3>DELMONICO</h3>
+            <div class="d-flex justify-content-between">
+              <p>minus molestiae at natus earum</p>
+              <p class="text-warning">$17.99</p>
+            </div>
+          </div>
+          <div class="col-11 col-sm-8 col-xl-3 mx-4">
+            <h2 class="text-warning text-center mt-5">DESSERTS</h2>
+            <h3>FILET</h3>
+            <div class="d-flex justify-content-between">
+              <p>Lorem ipsum dolor sit amet</p>
+              <p class="text-warning">$14.49</p>
+            </div>
+            <h3>BOINE IN FILET</h3>
+            <div class="d-flex justify-content-between">
+              <p>consectetur adipisicing elit</p>
+              <p class="text-warning">$20.50</p>
+            </div>
+            <h3>NEW YORK STRIP</h3>
+            <div class="d-flex justify-content-between">
+              <p>Soluta dolorum repellendus</p>
+              <p class="text-warning">$9.99</p>
+            </div>
+            <h3>PORTERHOUSE</h3>
+            <div class="d-flex justify-content-between">
+              <p>eveniet animi culpa eum</p>
+              <p class="text-warning">$7.99</p>
+            </div>
+            <h3>DELMONICO</h3>
+            <div class="d-flex justify-content-between">
+              <p>minus molestiae at natus earum</p>
+              <p class="text-warning">$17.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mx-0 align-items-center">
+          <hr class="col-4 m-0 text-secondary d-none d-md-inline" />
+          <button
+            type="button"
+            class="btn btn-outline-warning col-10 col-sm-5 col-md-2 m-5"
+          >
+            VIEW COMPLETE MENU
+          </button>
+          <hr class="col-4 m-0 text-secondary d-none d-md-inline" />
+        </div>
+      </section>
+      <section class="container-fluid text-center px-0 py-5 bg-dark">
+        <h2 class="text-white">GALLERY</h2>
+        <p class="text-white fst-italic">
+          If a picture says a thousand words, then you can imagine how long it
+          would take to describe all<br />ou mouthwatering selections.
+        </p>
+        <nav class="nav justify-content-center mb-5">
+          <a
+            class="nav-link link-light fw-bold active"
+            aria-current="page"
+            href="#"
+            >All Photos</a
+          >
+          <a class="nav-link link-light fw-bold" href="#">Food</a>
+          <a class="nav-link link-light fw-bold" href="#">Restaurant</a>
+          <a class="nav-link link-light fw-bold" href="#">Desserts</a>
+        </nav>
+        <div class="row gx-0 justify-content-center">
+          <div class="col-11 col-sm-9 my-1 my-xl-0 col-xl-4">
+            <img
+              class="img-fluid"
+              src="/ressources/img/spices.webp"
+              alt="Différentes épices"
+            />
+          </div>
+          <div class="col-11 col-sm-9 my-1 my-xl-0 col-xl-4">
+            <img
+              class="img-fluid"
+              src="/ressources/img/table.webp"
+              alt="Table de restaurant"
+            />
+          </div>
+          <div class="col-11 col-sm-9 my-1 my-xl-0 col-xl-4">
+            <img
+              class="img-fluid"
+              src="/ressources/img/cakes.webp"
+              alt="Desserts aux fruits "
+            />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="container-fluid d-flex justify-content-center bg-dark pb-3 pt-5">
-        <div class="social-icon mx-2"><img src="/ressources/img/icone-twitter.webp" alt="Icone Twitter" class="img-fluid"></div>
-        <div class="social-icon mx-2"><img src="/ressources/img/icone-facebook.webp" alt="Icone Facebook" class="img-fluid"></div>
-        <div class="social-icon mx-2"><img src="/ressources/img/icone-pinterest.webp" alt="Icone Pinterest" class="img-fluid"></div>
-        <div class="social-icon mx-2"><img src="/ressources/img/icone-google.webp" alt="Icone Google+" class="img-fluid"></div>
+    <footer
+      class="container-fluid d-flex justify-content-center bg-dark pb-3 pt-5"
+    >
+      <div class="social-icon mx-2">
+        <img
+          src="/ressources/img/icone-twitter.webp"
+          alt="Icone Twitter"
+          class="img-fluid"
+        />
+      </div>
+      <div class="social-icon mx-2">
+        <img
+          src="/ressources/img/icone-facebook.webp"
+          alt="Icone Facebook"
+          class="img-fluid"
+        />
+      </div>
+      <div class="social-icon mx-2">
+        <img
+          src="/ressources/img/icone-pinterest.webp"
+          alt="Icone Pinterest"
+          class="img-fluid"
+        />
+      </div>
+      <div class="social-icon mx-2">
+        <img
+          src="/ressources/img/icone-google.webp"
+          alt="Icone Google+"
+          class="img-fluid"
+        />
+      </div>
     </footer>
-</body>
+  </body>
 </html>
